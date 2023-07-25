@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo-img {
+  width: 11vw;
+}
+.bg-nav {
+  background: #080808;
+}
+.bg-image {
+  background-image: url("../img/fondo4.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 35%;
+  object-fit: cover;
+}
+
+.bg-footer {
+  background: rgba(8, 8, 8, 0.5);
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.size-tittle{
+  font-size: 15rem;
+}
+
+
+.circle {
+  border: #ffffff 2px solid;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  position: sticky;
+  top: 20%;
+
+}
+.circle:hover{
+  transform: scale(0.95);
+  transition: 0.5s;
+  box-shadow: 5px 5px 10px #e6d6d6f6;
+}
+
+
+/* Pagina casa */
+
+.bg-image-casas {
+  background-image: url("../img/fondo6.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 60%;
+  object-fit: cover;
+}
+
+@media (max-width: 767px){
+  .size-tittle {
+    font-size: 10rem;
+
+  }
+
+}
+
+@media (max-width: 991px) {
+  .size-tittle {
+    font-size: 10rem;
+  }
+}
