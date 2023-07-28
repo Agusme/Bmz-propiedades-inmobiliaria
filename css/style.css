@@ -63,6 +63,11 @@ a {
   object-fit: cover;
 }
 
+/* Pagina contacto */
+.bg-contacto{
+  background: #080808;
+}
+
 @media (max-width: 767px){
   .size-tittle {
     font-size: 10rem;
