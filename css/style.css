@@ -81,3 +81,8 @@ a {
     font-size: 10rem;
   }
 }
+
+/* bajar margen*/
+.margin-top{
+  margin-top: 10%;
+}
