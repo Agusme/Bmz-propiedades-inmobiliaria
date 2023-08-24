@@ -84,5 +84,13 @@ a {
 
 /* bajar margen*/
 .margin-top{
-  margin-top: 10%;
+  margin-top: 7%;
+}
+.size-title-medium{
+  font-size: 4.5rem;
+  padding-top: 0.5em;
+}
+
+.container-grey{
+  background: #9D9D9D;
 }
